@@ -15,10 +15,10 @@
 		195F0DAF1DF8EF1B005FD823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195F0DAD1DF8EF1B005FD823 /* Main.storyboard */; };
 		195F0DB11DF8EF1B005FD823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195F0DB01DF8EF1B005FD823 /* Assets.xcassets */; };
 		195F0DD41DF8EFB6005FD823 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195F0DD31DF8EFB6005FD823 /* BrowserViewController.swift */; };
-		195F0DD81DF8F01D005FD823 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 195F0DD71DF8F01D005FD823 /* GCDAsyncSocket.m */; };
-		195F0DD91DF8F265005FD823 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 195F0DD71DF8F01D005FD823 /* GCDAsyncSocket.m */; };
 		195F0DDD1DF8F381005FD823 /* NetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195F0DDB1DF8F381005FD823 /* NetService.swift */; };
 		195F0DDE1DF8F381005FD823 /* ServerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195F0DDC1DF8F381005FD823 /* ServerViewController.swift */; };
+		19D2D9DD1DFF3F1200105EC6 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D2D9DC1DFF3F1200105EC6 /* GCDAsyncSocket.m */; };
+		19D2D9DE1DFF3F1200105EC6 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D2D9DC1DFF3F1200105EC6 /* GCDAsyncSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,12 +69,12 @@
 		195F0DB71DF8EF1B005FD823 /* ExemploComunicacaoTvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExemploComunicacaoTvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		195F0DC21DF8EF1B005FD823 /* ExemploComunicacaoTvOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExemploComunicacaoTvOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		195F0DD31DF8EFB6005FD823 /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
-		195F0DD51DF8F01D005FD823 /* ExemploComunicacao-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExemploComunicacao-Bridging-Header.h"; sourceTree = "<group>"; };
-		195F0DD61DF8F01D005FD823 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
-		195F0DD71DF8F01D005FD823 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
-		195F0DDA1DF8F2E9005FD823 /* ExemploComunicacaoTvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExemploComunicacaoTvOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		195F0DDB1DF8F381005FD823 /* NetService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetService.swift; sourceTree = "<group>"; };
 		195F0DDC1DF8F381005FD823 /* ServerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerViewController.swift; sourceTree = "<group>"; };
+		19D2D9DA1DFF3F1100105EC6 /* ExemploComunicacaoTvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExemploComunicacaoTvOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		19D2D9DB1DFF3F1200105EC6 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		19D2D9DC1DFF3F1200105EC6 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		19D2D9DF1DFF3F4D00105EC6 /* ExemploComunicacao-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ExemploComunicacao-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,10 +175,10 @@
 		195F0DD21DF8EFA5005FD823 /* Socket */ = {
 			isa = PBXGroup;
 			children = (
-				195F0DD61DF8F01D005FD823 /* GCDAsyncSocket.h */,
-				195F0DD71DF8F01D005FD823 /* GCDAsyncSocket.m */,
-				195F0DDA1DF8F2E9005FD823 /* ExemploComunicacaoTvOS-Bridging-Header.h */,
-				195F0DD51DF8F01D005FD823 /* ExemploComunicacao-Bridging-Header.h */,
+				19D2D9DB1DFF3F1200105EC6 /* GCDAsyncSocket.h */,
+				19D2D9DC1DFF3F1200105EC6 /* GCDAsyncSocket.m */,
+				19D2D9DA1DFF3F1100105EC6 /* ExemploComunicacaoTvOS-Bridging-Header.h */,
+				19D2D9DF1DFF3F4D00105EC6 /* ExemploComunicacao-Bridging-Header.h */,
 			);
 			name = Socket;
 			sourceTree = "<group>";
@@ -323,6 +323,7 @@
 					195F0DA61DF8EF1B005FD823 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 6BD69EF9D7;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					195F0DB61DF8EF1B005FD823 = {
@@ -417,7 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				195F0DD81DF8F01D005FD823 /* GCDAsyncSocket.m in Sources */,
+				19D2D9DD1DFF3F1200105EC6 /* GCDAsyncSocket.m in Sources */,
 				195F0DD41DF8EFB6005FD823 /* BrowserViewController.swift in Sources */,
 				195F0D761DF8EF05005FD823 /* AppDelegate.swift in Sources */,
 			);
@@ -441,7 +442,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				195F0DD91DF8F265005FD823 /* GCDAsyncSocket.m in Sources */,
+				19D2D9DE1DFF3F1200105EC6 /* GCDAsyncSocket.m in Sources */,
 				195F0DAA1DF8EF1B005FD823 /* AppDelegate.swift in Sources */,
 				195F0DDE1DF8F381005FD823 /* ServerViewController.swift in Sources */,
 				195F0DDD1DF8F381005FD823 /* NetService.swift in Sources */,
@@ -702,12 +703,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 6BD69EF9D7;
 				INFOPLIST_FILE = ExemploComunicacaoTvOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gh.ExemploComunicacaoTvOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "ExemploComunicacao/ExemploComunicacaoTvOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
@@ -719,12 +723,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 6BD69EF9D7;
 				INFOPLIST_FILE = ExemploComunicacaoTvOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gh.ExemploComunicacaoTvOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "ExemploComunicacao/ExemploComunicacaoTvOS-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
@@ -816,6 +822,7 @@
 				195F0D9C1DF8EF05005FD823 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		195F0D9D1DF8EF05005FD823 /* Build configuration list for PBXNativeTarget "ExemploComunicacaoTests" */ = {
 			isa = XCConfigurationList;
@@ -824,6 +831,7 @@
 				195F0D9F1DF8EF05005FD823 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		195F0DA01DF8EF05005FD823 /* Build configuration list for PBXNativeTarget "ExemploComunicacaoUITests" */ = {
 			isa = XCConfigurationList;
@@ -832,6 +840,7 @@
 				195F0DA21DF8EF05005FD823 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		195F0DC91DF8EF1C005FD823 /* Build configuration list for PBXNativeTarget "ExemploComunicacaoTvOS" */ = {
 			isa = XCConfigurationList;
@@ -840,6 +849,7 @@
 				195F0DCB1DF8EF1C005FD823 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		195F0DCC1DF8EF1C005FD823 /* Build configuration list for PBXNativeTarget "ExemploComunicacaoTvOSTests" */ = {
 			isa = XCConfigurationList;
@@ -848,6 +858,7 @@
 				195F0DCE1DF8EF1C005FD823 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		195F0DCF1DF8EF1C005FD823 /* Build configuration list for PBXNativeTarget "ExemploComunicacaoTvOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -856,6 +867,7 @@
 				195F0DD11DF8EF1C005FD823 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

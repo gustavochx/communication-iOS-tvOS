@@ -23,17 +23,15 @@ class ServerViewController: UIViewController, GCDAsyncSocketDelegate {
         
         server = GCDAsyncSocket(delegate: self, delegateQueue: DispatchQueue.main)
         
-        let service = Foundation.NetService()
-        
-        
         do{
             try server.accept(onPort: 50000)
             netService.publish(server.localPort)
         }catch{
-        
+            
         }
-    
+        
     }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
